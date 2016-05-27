@@ -104,7 +104,7 @@
     <routinesParameter id="_bqWp4CGAEeaK7JTbT29iWQ" name="TalendDate"/>
     <routinesParameter id="_bqbiYCGAEeaK7JTbT29iWQ" name="TalendString"/>
   </parameters>
-  <node componentName="tHSQLDbOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="96">
+  <node componentName="tHSQLDbOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHSQLDbOutput_1" show="false"/>
     <elementParameter field="CLOSED_LIST" name="RUNNING_MODE" value="HSQLDB_SERVER"/>
     <elementParameter field="CHECK" name="TLS" value="false"/>
