@@ -96,6 +96,26 @@
     </ItemsRelations>
     <ItemsRelations xmi:id="_eIV1izaYEea4KcHARCVYBw">
       <baseItem xmi:id="_eIV1jDaYEea4KcHARCVYBw" id="_9aSIwCuzEeanfaG6-1Iu2g" version="0.1" type="job"/>
+      <relatedItems xmi:id="_1mhxezwuEeafjMBcRaahXA" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_1mhxfDwuEeafjMBcRaahXA" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_1mhxfTwuEeafjMBcRaahXA" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_1mhxfjwuEeafjMBcRaahXA" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_1mhxfzwuEeafjMBcRaahXA" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_1mhxgDwuEeafjMBcRaahXA" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_1mhxgTwuEeafjMBcRaahXA" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_1mhxgjwuEeafjMBcRaahXA" id="Mathematical" version="Latest" type="routine"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_1mhxcDwuEeafjMBcRaahXA">
+      <baseItem xmi:id="_1mhxcTwuEeafjMBcRaahXA" id="_oZHhwDaYEea4KcHARCVYBw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_1mhxcjwuEeafjMBcRaahXA" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_1mhxczwuEeafjMBcRaahXA" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_1mhxdDwuEeafjMBcRaahXA" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_1mhxdTwuEeafjMBcRaahXA" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_1mhxdjwuEeafjMBcRaahXA" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_1mhxdzwuEeafjMBcRaahXA" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_1mhxeDwuEeafjMBcRaahXA" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_1mhxeTwuEeafjMBcRaahXA" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_1mhxejwuEeafjMBcRaahXA" id="Mathematical" version="Latest" type="routine"/>
     </ItemsRelations>
     <migrationTask xmi:id="_Nm5U8CIqEea8r7DbkUu02w" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Nm5U8SIqEea8r7DbkUu02w" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
@@ -433,9 +453,9 @@
     <migrationTask xmi:id="_GxFP6DHlEeayrrUauKu8vA" id="org.talend.repository.generic.model.migration.NewSalesforceMigrationTask" breaks="6.2.0" version="6.2.0" status="noimpact"/>
     <migrationTask xmi:id="_GxFP6THlEeayrrUauKu8vA" id="org.talend.repository.model.migration.ReplaceVarcharArrayWithVarcharIssueTDI35719" breaks="6.2.0" version="6.2.1" status="ok"/>
     <migrationTask xmi:id="_GxFP6jHlEeayrrUauKu8vA" id="org.talend.repository.generic.model.migration.Salesforce620WizardMigration" breaks="6.2.1" version="6.2.1" status="noimpact"/>
-    <migrationTask xmi:id="_eIEvwDaYEea4KcHARCVYBw" id="org.talend.repository.model.migration.FixProjectResourceLink" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_eIEvwTaYEea4KcHARCVYBw" id="org.talend.repository.hadoopcluster.migration.ChangeHadoopConfJarNameMigrationTask" breaks="6.0.0" version="6.2.1" status="noimpact"/>
-    <migrationTask xmi:id="_eIEvwjaYEea4KcHARCVYBw" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
+    <migrationTask xmi:id="_1mYAcDwuEeafjMBcRaahXA" id="org.talend.repository.model.migration.FixProjectResourceLink" breaks="5.1.1" version="5.1.2" status="noimpact"/>
+    <migrationTask xmi:id="_1mYAcTwuEeafjMBcRaahXA" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="__wJnkiIpEea8r7DbkUu02w" login="admin@company.com" firstName="admin" lastName="admin" type="DI" additionnalData="{}"/>
   <TalendProperties:ProjectReference xmi:id="__wJnkyIpEea8r7DbkUu02w" project="__wJnkSIpEea8r7DbkUu02w" branch="master" referencedBranch="master">
