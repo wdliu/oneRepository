@@ -104,7 +104,7 @@
     <routinesParameter id="_TzriAD6fEeaGaLqHgKBsKA" name="TalendDate"/>
     <routinesParameter id="_Tzt-QD6fEeaGaLqHgKBsKA" name="TalendString"/>
   </parameters>
-  <node componentName="tSqoopImport" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="64">
+  <node componentName="tSqoopImport" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSqoopImport_1" show="false"/>
     <elementParameter field="LABEL" name="NOTE_COMMANDINE" value="The available options are based on Sqoop 1.4.4. If you use&#xA;&#x9;&#x9;&#x9;&#x9;an earlier version, read the Sqoop documentation in order to find&#xA;&#x9;&#x9;&#x9;&#x9;those which are not available.&#xA;&#x9;&#x9;&#x9;" show="false"/>
     <elementParameter field="RADIO" name="USE_COMMANDLINE" value="false"/>
