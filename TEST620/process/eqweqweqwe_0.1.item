@@ -149,6 +149,8 @@
     <elementParameter field="TEXT" name="MAPRTICKET_CLUSTER" value="&quot;demo.mapr.com&quot;" show="false"/>
     <elementParameter field="TEXT" name="MAPRTICKET_DURATION" value="86400L" show="false"/>
     <elementParameter field="TEXT" name="HADOOP_USER" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="JDBC_PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="JDBC_PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_vl8nsD6iEeaGaLqHgKBsKA" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION" value="&quot;http://qwe.13123.com&quot;"/>
     <elementParameter field="TEXT" name="USERNAME" value="&quot;eqweqwqwe&quot;"/>
     <elementParameter field="CHECK" name="PASSWORD_STORED_IN_FILE" value="false"/>
