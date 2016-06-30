@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
-  <TalendMetadata:DatabaseConnection xmi:id="_TELQUD6iEeaGaLqHgKBsKA" name="jdbc" id="_HUG7kD6iEeaGaLqHgKBsKA" label="jdbc" dataPackage="_TFnawD6iEeaGaLqHgKBsKA" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/test?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="NZNgK6DuncI=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="test" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+  <TalendMetadata:DatabaseConnection xmi:id="_TELQUD6iEeaGaLqHgKBsKA" name="jdbc" id="_HUG7kD6iEeaGaLqHgKBsKA" label="jdbc" dataPackage="_hCIY8D6iEeaGaLqHgKBsKA" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/test?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="NZNgK6DuncI=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="test" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
     <taggedValue xmi:id="_TENskD6iEeaGaLqHgKBsKA" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_TFTRsD6iEeaGaLqHgKBsKA" tag="package filter" value=""/>
     <taggedValue xmi:id="_TFeQ0D6iEeaGaLqHgKBsKA" tag="Status" value=""/>
@@ -14,5 +14,5 @@
     <taggedValue xmi:id="_TFgtEj6iEeaGaLqHgKBsKA" tag="DB IdentifierQuoteString" value="`"/>
     <parameters xmi:id="_TENskT6iEeaGaLqHgKBsKA" key="CONN_PARA_KEY_USERNAME" value="root"/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_TFnawD6iEeaGaLqHgKBsKA" name="test" dataManager="_TELQUD6iEeaGaLqHgKBsKA"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_hCIY8D6iEeaGaLqHgKBsKA" name="test" dataManager="_TELQUD6iEeaGaLqHgKBsKA"/>
 </xmi:XMI>
