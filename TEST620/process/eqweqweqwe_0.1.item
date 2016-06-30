@@ -104,7 +104,7 @@
     <routinesParameter id="_TzriAD6fEeaGaLqHgKBsKA" name="TalendDate"/>
     <routinesParameter id="_Tzt-QD6fEeaGaLqHgKBsKA" name="TalendString"/>
   </parameters>
-  <node componentName="tSqoopImport" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="64">
+  <node componentName="tSqoopImport" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSqoopImport_1" show="false"/>
     <elementParameter field="TEXT" name="COMPONENT_NAME" value="tSqoopImport" show="false"/>
     <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
