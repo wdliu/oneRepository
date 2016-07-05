@@ -94,6 +94,30 @@
       <relatedItems xmi:id="_Mm9vKTLXEeapcMD8nu7tug" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_Mm9vKjLXEeapcMD8nu7tug" id="Mathematical" version="Latest" type="routine"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="_IvHqQEKCEeawKNHCkmk9tg">
+      <baseItem xmi:id="_IvHqQUKCEeawKNHCkmk9tg" id="__HSNUEKBEeabyb5SVuLIiw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_IvHqQkKCEeawKNHCkmk9tg" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_IvHqQ0KCEeawKNHCkmk9tg" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_IvHqREKCEeawKNHCkmk9tg" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_IvHqRUKCEeawKNHCkmk9tg" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_IvHqRkKCEeawKNHCkmk9tg" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_IvHqR0KCEeawKNHCkmk9tg" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_IvHqSEKCEeawKNHCkmk9tg" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_IvHqSUKCEeawKNHCkmk9tg" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_IvHqSkKCEeawKNHCkmk9tg" id="TalendDate" version="Latest" type="routine"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_IvHqS0KCEeawKNHCkmk9tg">
+      <baseItem xmi:id="_IvHqTEKCEeawKNHCkmk9tg" id="_8lXeUDLXEeaHGPzZJX2RQA" version="0.1" type="job"/>
+      <relatedItems xmi:id="_IvHqTUKCEeawKNHCkmk9tg" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_IvHqTkKCEeawKNHCkmk9tg" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_IvHqT0KCEeawKNHCkmk9tg" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_IvHqUEKCEeawKNHCkmk9tg" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_IvHqUUKCEeawKNHCkmk9tg" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_IvHqUkKCEeawKNHCkmk9tg" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_IvHqU0KCEeawKNHCkmk9tg" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_IvHqVEKCEeawKNHCkmk9tg" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_IvHqVUKCEeawKNHCkmk9tg" id="TalendDate" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_Xgt1oCPeEeauF8UEJWRkvg" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Xgt1oSPeEeauF8UEJWRkvg" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Xgt1oiPeEeauF8UEJWRkvg" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
@@ -413,14 +437,15 @@
     <migrationTask xmi:id="_YKdXPyPeEeauF8UEJWRkvg" id="org.talend.repository.model.migration.spark.RenameSparkVersions" breaks="6.1.0" version="6.1.0" status="noimpact"/>
     <migrationTask xmi:id="_YKdXQCPeEeauF8UEJWRkvg" id="org.talend.repository.model.migration.TickDieOnError4tFileUnarchive" breaks="6.1.0" version="6.1.1" status="noimpact"/>
     <migrationTask xmi:id="_YKdXQSPeEeauF8UEJWRkvg" id="org.talend.repository.routelets.migration.RouteletProcessTypeMigrationTask" breaks="6.1.0" version="6.1.1" status="noimpact"/>
-    <migrationTask xmi:id="_Mm6EwDLXEeapcMD8nu7tug" id="org.talend.repository.model.migration.FixProjectResourceLink" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Mm6EwTLXEeapcMD8nu7tug" id="org.talend.repository.model.migration.AddContextCommentValueMigrationTask" breaks="6.1.0" version="6.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Mm6EwjLXEeapcMD8nu7tug" id="org.talend.repository.model.migration.SetDefaultValueForNewerEmailFirstOfTDI35976" breaks="6.1.1" version="6.1.2" status="ok"/>
     <migrationTask xmi:id="_Mm6EwzLXEeapcMD8nu7tug" id="org.talend.repository.model.migration.ChangeDefaultValueForCassandraOutputBatch" breaks="6.1.2" version="6.1.2" status="ok"/>
     <migrationTask xmi:id="_Mm6ExDLXEeapcMD8nu7tug" id="org.talend.repository.model.migration.RenameDriverJarPathForDBConnectionMigrationTask" breaks="5.6.2" version="5.6.3" status="noimpact"/>
     <migrationTask xmi:id="_Mm6ExTLXEeapcMD8nu7tug" id="org.talend.repository.model.migration.RemoveDuplicatedContextGroupMigrationTask" breaks="6.0.1" version="6.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Mm6ExjLXEeapcMD8nu7tug" id="org.talend.repository.model.migration.UpdateJobletContextInJobMigrationTask" breaks="6.1.1" version="6.1.2" status="noimpact"/>
-    <migrationTask xmi:id="_Mm6ExzLXEeapcMD8nu7tug" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
+    <migrationTask xmi:id="_IvD_4EKCEeawKNHCkmk9tg" id="org.talend.repository.model.migration.FixProjectResourceLink" breaks="5.1.1" version="5.1.2" status="noimpact"/>
+    <migrationTask xmi:id="_IvD_4UKCEeawKNHCkmk9tg" id="org.talend.repository.hadoopcluster.migration.AdaptDeprecatedHadoopVersionsMigrationTask" breaks="6.0.0" version="6.1.2" status="noimpact"/>
+    <migrationTask xmi:id="_IvD_4kKCEeawKNHCkmk9tg" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_Vep3QSPeEeauF8UEJWRkvg" login="admin@company.com" firstName="admin" lastName="admin" type="DI" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_cP7hUCPfEeaWgvSRRok_mA" login="user@user.com" firstName="user" lastName="user" type="DI" additionnalData="{}"/>
